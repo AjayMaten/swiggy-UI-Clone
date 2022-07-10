@@ -1,0 +1,11 @@
+img{
+    height: 200px;
+    width:150px;
+}
+.cardComponent{
+    height:300px;
+    width:150px;
+    display:inline-block;
+    margin:50px;
+    border: 2px solid black;
+}
