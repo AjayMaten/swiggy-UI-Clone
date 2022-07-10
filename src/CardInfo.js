@@ -1,45 +1,75 @@
-const CardInfo = [
+let CardInfo = [
   {
-    id: 1,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "idly Vada",
-    price: 500,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yzpwhtsc7dkznujwlqer",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
   },
   {
-    id: 2,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "idly Vada",
-    price: 500,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Burger King",
+    desc: "American",
   },
   {
-    id: 3,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "idly Vada",
-    price: 500,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yzpwhtsc7dkznujwlqer",
+    heading: "Dominic Pizza",
+    desc: "Pizzas, Italian",
   },
   {
-    id: 4,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "idly Vada",
-    price: 500,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "CHAUHAN DHABAo",
+    desc: "Indian",
   },
   {
-    id: 5,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "Dosa",
-    price: 400,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yzpwhtsc7dkznujwlqer",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
   },
   {
-    id: 6,
-    imgURL:
-      "https://cdn-images-1.medium.com/max/1200/1*v5SYqjYEdQMPIwNduRrnCw.png",
-    name: "Poori",
-    price: 600,
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewulfgphspwjubsiv97y",
+    heading: "Wow! Momo",
+    desc: "Tibetan, Healthy Food, Asian, Chinese, Snacks, Continental, Desserts, Beverages",
   },
 ];
 

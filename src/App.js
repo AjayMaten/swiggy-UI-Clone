@@ -7,7 +7,9 @@ function App() {
     <>
       <div className="App">
         {CardInfo.map((card) => {
-          return <Card img={card.imgURL} name={card.name} price={card.price} />;
+          return (
+            <Card img={card.imageUrl} name={card.heading} desc={card.desc} />
+          );
         })}
       </div>
     </>

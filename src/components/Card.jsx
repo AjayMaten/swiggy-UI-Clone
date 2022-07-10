@@ -3,11 +3,25 @@ import "./Card.css";
 
 function Card(props) {
   return (
-    <div className="cardComponent">
-      <img src={props.img} alt={props.name} />
+    <div className="cards">
+      <img
+        src={props.img}
+        alt="foodImage"
+        className="foodImage"
+        height="160"
+        width="250"
+      />
       <div>
-        <p>{props.name}</p>
-        <p>{props.price}</p>
+        <div className="heading">{props.name}</div>
+        <div className="desc">{props.desc}</div>
+        <div className="cardDetails">
+          <div className="rating">
+            {/* <img src={star} alt="food Image" height="10px" width="10px"></img> */}
+            <span>4.0</span>
+          </div>
+          <div>52 mins</div>
+          <div> &#8377;100 for 2</div>
+        </div>
       </div>
     </div>
   );
